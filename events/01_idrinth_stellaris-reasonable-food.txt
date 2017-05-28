@@ -1,16 +1,101 @@
 namespace = idrinthstellarisreasonablefood
 
 #starving
-empire_event = {
+country_event = {
 	id = idrinthstellarisreasonablefood.1
 	hide_window = no
 	is_triggered_only = yes
 	location = ROOT
+	trigger = {
+		
+	}
 }
 #overfed
-empire_event = {
-	id = idrinthstellarisreasonablefood.2
+country_event = {
+	id = idrinthstellarisreasonablefood.201
 	hide_window = no
 	is_triggered_only = yes
 	location = ROOT
+	option = {
+		name ="idrinthstellarisreasonablefood.2.1"
+		owner {
+			resource_food_add = -100
+			resource_minerals_add = 25
+		}
+	}
+	option = {
+		name ="idrinthstellarisreasonablefood.2.2"
+		owner {
+			resource_food_add = -100
+			resource_energy_add = 25
+		}
+	}
+	option = {
+		name ="idrinthstellarisreasonablefood.2.3"
+		owner {
+			resource_food_add = -100
+			resource_research_society_add = 5
+			resource_research_physics_add = 5
+			resource_research_engineering_add = 5
+		}
+	}
+}
+country_event = {
+	id = idrinthstellarisreasonablefood.202
+	hide_window = no
+	is_triggered_only = yes
+	location = ROOT
+	option = {
+		name ="idrinthstellarisreasonablefood.2.1"
+		owner {
+			resource_food_add = -500
+			resource_minerals_add = 150
+		}
+	}
+	option = {
+		name ="idrinthstellarisreasonablefood.2.2"
+		owner {
+			resource_food_add = -500
+			resource_energy_add = 150
+		}
+	}
+	option = {
+		name ="idrinthstellarisreasonablefood.2.3"
+		owner {
+			resource_food_add = -500
+			resource_research_society_add = 30
+			resource_research_physics_add = 30
+			resource_research_engineering_add = 30
+		}
+	}
+}
+
+country_event = {
+	id = idrinthstellarisreasonablefood.203
+	hide_window = no
+	is_triggered_only = yes
+	location = ROOT
+	option = {
+		name ="idrinthstellarisreasonablefood.2.1"
+		owner {
+			resource_food_add = -2500
+			resource_minerals_add = 900
+		}
+	}
+	option = {
+		name ="idrinthstellarisreasonablefood.2.2"
+		owner {
+			resource_food_add = -2500
+			resource_energy_add = 900
+		}
+	}
+	option = {
+		name ="idrinthstellarisreasonablefood.2.3"
+		owner {
+			resource_food_add = -2500
+			resource_research_society_add = 180
+			resource_research_physics_add = 180
+			resource_research_engineering_add = 180
+		}
+	}
 }
