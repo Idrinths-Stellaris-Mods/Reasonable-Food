@@ -1,0 +1,16 @@
+namespace = idrinthstellarisreasonablefood
+
+#starving
+empire_event = {
+	id = idrinthstellarisreasonablefood.1
+	hide_window = no
+	is_triggered_only = yes
+	location = ROOT
+}
+#overfed
+empire_event = {
+	id = idrinthstellarisreasonablefood.2
+	hide_window = no
+	is_triggered_only = yes
+	location = ROOT
+}
