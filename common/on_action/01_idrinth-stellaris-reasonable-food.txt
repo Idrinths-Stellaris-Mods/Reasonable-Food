@@ -1,0 +1,4 @@
+on_monthly_pulse = {
+  idrinthstellarisreasonablefood.1 #starving
+  idrinthstellarisreasonablefood.2 #overfed
+}
