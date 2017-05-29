@@ -7,7 +7,13 @@ country_event = {
 	is_triggered_only = yes
 	location = ROOT
 	trigger = {
-		
+		has_food = 0
+	}
+	immediate = {
+		add_modifier = {
+                        modifier = idrinthstellarisreasonablefood_is_starving
+                        days = 90
+                }
 	}
 }
 #overfed
@@ -20,6 +26,10 @@ country_event = {
 		name ="idrinthstellarisreasonablefood.2.1"
 		owner {
 			resource_food_add = -100
+			add_modifier = {
+				modifier = idrinthstellarisreasonablefood_bonus_to_miners
+				days = 45
+			}	
 			resource_minerals_add = 25
 		}
 	}
@@ -27,6 +37,10 @@ country_event = {
 		name ="idrinthstellarisreasonablefood.2.2"
 		owner {
 			resource_food_add = -100
+			add_modifier = {
+				modifier = idrinthstellarisreasonablefood_bonus_to_reactors
+				days = 45
+			}
 			resource_energy_add = 25
 		}
 	}
@@ -34,6 +48,10 @@ country_event = {
 		name ="idrinthstellarisreasonablefood.2.3"
 		owner {
 			resource_food_add = -100
+			add_modifier = {
+				modifier = idrinthstellarisreasonablefood_bonus_to_researchers
+				days = 45
+			}
 			resource_research_society_add = 5
 			resource_research_physics_add = 5
 			resource_research_engineering_add = 5
@@ -49,6 +67,10 @@ country_event = {
 		name ="idrinthstellarisreasonablefood.2.1"
 		owner {
 			resource_food_add = -500
+			add_modifier = {
+				modifier = idrinthstellarisreasonablefood_bonus_to_miners
+				days = 270
+			}	
 			resource_minerals_add = 150
 		}
 	}
@@ -56,6 +78,10 @@ country_event = {
 		name ="idrinthstellarisreasonablefood.2.2"
 		owner {
 			resource_food_add = -500
+			add_modifier = {
+				modifier = idrinthstellarisreasonablefood_bonus_to_reactors
+				days = 270
+			}	
 			resource_energy_add = 150
 		}
 	}
@@ -63,6 +89,10 @@ country_event = {
 		name ="idrinthstellarisreasonablefood.2.3"
 		owner {
 			resource_food_add = -500
+			add_modifier = {
+				modifier = idrinthstellarisreasonablefood_bonus_to_researchers
+				days = 270
+			}	
 			resource_research_society_add = 30
 			resource_research_physics_add = 30
 			resource_research_engineering_add = 30
@@ -79,6 +109,10 @@ country_event = {
 		name ="idrinthstellarisreasonablefood.2.1"
 		owner {
 			resource_food_add = -2500
+			add_modifier = {
+				modifier = idrinthstellarisreasonablefood_bonus_to_miners
+				days = 1620
+			}	
 			resource_minerals_add = 900
 		}
 	}
@@ -86,6 +120,10 @@ country_event = {
 		name ="idrinthstellarisreasonablefood.2.2"
 		owner {
 			resource_food_add = -2500
+			add_modifier = {
+				modifier = idrinthstellarisreasonablefood_bonus_to_reactors
+				days = 1620
+			}	
 			resource_energy_add = 900
 		}
 	}
@@ -93,6 +131,10 @@ country_event = {
 		name ="idrinthstellarisreasonablefood.2.3"
 		owner {
 			resource_food_add = -2500
+			add_modifier = {
+				modifier = idrinthstellarisreasonablefood_bonus_to_researchers
+				days = 1620
+			}	
 			resource_research_society_add = 180
 			resource_research_physics_add = 180
 			resource_research_engineering_add = 180
